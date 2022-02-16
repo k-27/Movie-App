@@ -1,0 +1,38 @@
+.poster_card {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(50, 16, 171);    */
+    width: 100%;
+    max-height: fit-content;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image {
+    width: 100%;
+    max-width: 182px;
+    margin-top: 5px;
+   
+}
+.title_box {
+    width: 100%;
+    max-width: 182px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+.imagePlaceholder {
+    width: 100%;
+    max-width: 182px;
+    min-height:200px;
+    background-color: gray;
+}
